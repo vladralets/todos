@@ -1,0 +1,35 @@
+.createWrapper {
+  justify-content: center;
+  padding-top: 30px;
+  display: flex;
+  text-align: left;
+  font-size: 14px;
+}
+
+.createForm {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  margin-left: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.createSubmit {
+  min-width: 100px;
+  height: 30px;
+  color: black;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  margin-left: 110px;
+  cursor: pointer;
+  background: white;
+  box-shadow: 4px 4px 8px 0px rgba(11, 19, 26, 0.2);
+}
+
+.createSubmit:hover {
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2) inset;
+  color: rgba(0, 0, 0, 0.5);
+}

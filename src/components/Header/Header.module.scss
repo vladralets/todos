@@ -1,0 +1,14 @@
+.headBar {
+  padding: 15px 0;
+}
+
+.headBar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: gray;
+  margin: 15px 15px;
+}
+
+.headBar a[class="active"] {
+  color: black;
+}

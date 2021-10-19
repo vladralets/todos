@@ -1,0 +1,63 @@
+.cardWrapper {
+  position: relative;
+}
+
+.todoCard {
+  position: relative;
+  width: 320px;
+  max-width: 320px;
+  height: 35px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  margin: 15px;
+  padding: 5px;
+  transition: all 0.4s ease-in;
+  overflow: hidden;
+  cursor: pointer;
+  flex: 1 1 auto;
+}
+
+.active {
+  height: 175px;
+}
+
+.todoCard h3 {
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.todoCard p {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+
+.todoCard:hover {
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.5);
+}
+
+.cardButton {
+  position: sticky;
+  top: 95%;
+  width: 80%;
+  height: 30px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 4px 4px 8px 0px rgba(11, 19, 26, 0.2);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.cardButton:hover {
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2) inset;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.delIcon {
+  position: absolute;
+  left: 96%;
+  cursor: pointer;
+}
